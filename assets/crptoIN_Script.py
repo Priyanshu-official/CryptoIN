@@ -4,11 +4,11 @@ import time
 # WE ARE USING COINBASE API TO GET INFO OF CRYPTOCURRENCY
 
 token = "1563898178:AAFOhpfwUJTUw3PVN-H2pfMmXu46z0F-1Pc"
-chat_id = "911573314"
+chat_id = "911573314"       
 
 threshold = 2580770  # just the price of 1 bitcoin in INR at the time of writing this script
 
-# it will send a request to coinbase API every 10 minutes
+# it will send a request to coinbase API every 5 minutes
 time_interval = 5*60
 
 def send_message(chat_id, msg):
